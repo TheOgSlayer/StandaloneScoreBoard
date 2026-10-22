@@ -1,0 +1,11 @@
+name: JalebiScoreboard
+main: smp.jalebi.scoreboard.JalebiScoreboard
+version: 1.2.0
+api-version: '1.21'
+softdepend: [Vault, JalebiTeams]
+description: Sidebar scoreboard for JALEBI SMP
+commands:
+  scoreboard:
+    description: Open the scoreboard settings menu
+    aliases: [sb]
+    usage: /scoreboard
